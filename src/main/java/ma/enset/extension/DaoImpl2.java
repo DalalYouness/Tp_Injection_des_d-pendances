@@ -1,4 +1,4 @@
-package ma.enset.Extension;
+package ma.enset.extension;
 
 import ma.enset.dao.IDao;
 

@@ -1,6 +1,6 @@
 package ma.enset.présentation;
 
-import ma.enset.Extension.DaoImpl2;
+import ma.enset.extension.DaoImpl2;
 import ma.enset.dao.DaoImpl;
 import ma.enset.metier.MetierImpl;
 
