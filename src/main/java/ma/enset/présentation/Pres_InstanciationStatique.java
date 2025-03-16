@@ -16,7 +16,8 @@ public class Pres_InstanciationStatique {
         System.out.println("=====================================");
 
         DaoImpl2 dao2 = new DaoImpl2();
-        MetierImpl metier2 = new MetierImpl(dao2);
+        MetierImpl metier2 = new MetierImpl();
+        metier2.setDao(dao2);
         System.out.println("Result : " + metier2.Calcul());
 
 

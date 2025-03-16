@@ -42,7 +42,7 @@ public class Pres_InstanciationDynamic {
         /*Si on veut faire l'instanciation pas le setter et non pas par le constructeur*/
         Imetier metier = (Imetier) cmetier.getConstructor().newInstance();
         // appel de la methode set
-        Method setDao = metier.getClass().getDeclaredMethod("SetDao", IDao.class);
+        Method setDao = metier.getClass().getDeclaredMethod("setDao", IDao.class);
         setDao.invoke(metier, dao);
         System.out.println("Res : " + metier.Calcul());
 
