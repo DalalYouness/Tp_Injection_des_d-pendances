@@ -15,10 +15,7 @@ public class Pres_InstanciationStatique {
         // version WebService we will test the injection dependency using the setter
         System.out.println("=====================================");
 
-        DaoImpl2 dao2 = new DaoImpl2();
-        MetierImpl metier2 = new MetierImpl();
-        metier2.setDao(dao2);
-        System.out.println("Result : " + metier2.Calcul());
+
 
 
     }
