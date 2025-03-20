@@ -10,6 +10,7 @@ Ce projet a pour objectif de démontrer les concepts de **couplage faible** et d
    - Par **instanciation statique**.
    - Par **instanciation dynamique**.
    - En utilisant le **framework Spring** :
+     
      - Configuration par **XML**.
      - Configuration par **annotations**.
 
