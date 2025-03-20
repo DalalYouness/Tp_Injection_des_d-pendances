@@ -6,6 +6,7 @@ Ce projet a pour objectif de démontrer les concepts de **couplage faible** et d
 
 1. **Couplage faible** : En utilisant des interfaces pour découpler les composants.
 2. **Injection de dépendances** :
+   
    - Par **instanciation statique**.
    - Par **instanciation dynamique**.
    - En utilisant le **framework Spring** :
